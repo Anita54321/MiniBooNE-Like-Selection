@@ -384,16 +384,6 @@ print(f"Efficiency: {Efficiency}")
 
 #Scaling Histograms
 
-CCeTrue.Sumw2(1)
-NCeTrue.Sumw2(1)
-NCmTrue.Sumw2(1)
-CCmTrue.Sumw2(1)
-                
-CCeTrueReco.Sumw2(1)
-NCeTrueReco.Sumw2(1)
-NCmTrueReco.Sumw2(1)
-CCmTrueReco.Sumw2(1)
-
 CCeTrue.Scale(dataPot1/totPot1)
 NCeTrue.Scale(dataPot2/totPot2)
 NCmTrue.Scale(dataPot2/totPot2)
